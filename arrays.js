@@ -40,7 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(catsArray.includes("Salem") ? "Salem" : undefined);
     console.log(catsArray.indexOf("Salem") != -1 ? catsArray[catsArray.indexOf("Salem")] : undefined);
 
-
+    //     Opgave 5
+    // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
+    // Udskriv det nye array i konsollen:
+    // console.log("Opgave 5", ...)
+    console.log([...numbersArray].map((number) => number * 3));
 
 }) // ends DOMContentLoaded
 
