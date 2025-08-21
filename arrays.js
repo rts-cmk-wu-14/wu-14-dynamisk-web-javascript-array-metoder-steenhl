@@ -46,5 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // console.log("Opgave 5", ...)
     console.log([...numbersArray].map((number) => number * 3));
 
+    //     Opgave 6
+    // Udskriv alle hundene i dogsArray i én lang streng.
+    // (Sådan her: BarneyMollyBaxter...)
+    // Udskriv strengen konsollen:
+    // console.log("Opgave 6", ...)
+    console.log(dogsArray.map((dog) => dog).join(""));
+
 }) // ends DOMContentLoaded
 
