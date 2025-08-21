@@ -53,5 +53,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // console.log("Opgave 6", ...)
     console.log(dogsArray.map((dog) => dog).join(""));
 
+    //     Opgave 7a
+    // Find ud af hvilket index "Mango" har i fruitsArray.
+    // Udskriv indexet i konsollen.
+    console.log("Opgave 7a:", fruitsArray.indexOf("Mango"));
+
+    // Opgave 7b
+    // Find ud af hvilket index "Blåbær" har i fruitsArray.
+    // Udskriv indexet i konsollen.
+    console.log("Opgave 7b:", fruitsArray.indexOf("Blåbær"));
+
 }) // ends DOMContentLoaded
 
