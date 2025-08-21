@@ -9,5 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let res1 = numbersArray.filter((elm) => elm > 20)
     console.log(res1);
 
+    // Opgave 2
+    // Tilføj katten "Sniffles" til catsArray.
+    // Udskriv arrayet i konsollen.
+    // console.log("Opgave 2", ...)
+    catsArray.push("Sniffles")
+    console.log(catsArray);
+
 }) // ends DOMContentLoaded
 
