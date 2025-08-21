@@ -27,6 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
     // console.log("Opgave 3b", ...)
     console.log(dogsArray.filter((dog) => dog === "Baxter").length > 0);
 
+    //     Opgave 4a
+    // Check om der i catsArray er en kat som hedder "Bagheera".
+    // Udskriv katten i konsollen hvis den findes og ellers "undefined".
+    // console.log("Opgave 4a", ...)
+    console.log(catsArray.includes("Bagheera") ? "Bagheera" : undefined);
+
+    // Opgave 4b
+    // Check om der i catsArray er en kat som hedder "Salem".
+    // Udskriv katten i konsollen hvis den findes og ellers "undefined".
+    // console.log("Opgave 4b", ...)
+    console.log(catsArray.includes("Salem") ? "Salem" : undefined);
+    console.log(catsArray.indexOf("Salem") != -1 ? catsArray[catsArray.indexOf("Salem")] : undefined);
+
+
 
 }) // ends DOMContentLoaded
 
